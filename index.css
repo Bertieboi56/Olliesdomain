@@ -1,0 +1,46 @@
+/*header, footer and white spaces section */
+.header {
+    background-color:peachpuff;
+    padding: 15px 0;
+}
+.whitespace {
+   padding: 40px;
+    background-color: white;
+}
+.whitespacetwo {
+    padding:40px;
+    background-color: white;
+}
+.footer {
+    padding: 20px;
+    background-color: peachpuff;
+}
+
+
+
+
+/*header, footer and white spaces section */
+
+/*first container section */
+.firstcontainer {
+    min-height: 600px;
+    background-color: red;
+}
+/*first container section */
+
+/*box containers middle*/
+.boxcontainerone {
+    display: flex;
+    justify-content: space-between;
+    min-height: 300px;
+    background-color: blue;
+}
+/*box containers middle*/
+
+
+/*second container section */
+.secondcontainer {
+    min-height: 600px;
+    background-color: red;
+}
+/*second container section */

@@ -1,0 +1,21 @@
+
+
+.nav-link {
+    position: relative; /* Needed for positioning the pseudo-element */
+    padding-bottom: 5px; /* Space between text and underline */
+    color: #000;
+    background-color: transparent;
+    transition: background-color 0.3 ease, color 0.2s ease;
+    border-radius: 8px;
+  }
+
+  .nav-link:hover {
+    background-color: rgba(0,0,0, 0.1);
+    color: #fff;
+  }
+
+
+.navbar {
+    font-family: "Sora", serif;
+
+}

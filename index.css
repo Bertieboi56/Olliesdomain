@@ -1,5 +1,7 @@
 
-
+body {
+    padding-top: 70px;
+}
 .nav-link {
     position: relative; /* Needed for positioning the pseudo-element */
     padding-bottom: 5px; /* Space between text and underline */

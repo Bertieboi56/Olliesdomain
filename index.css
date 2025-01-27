@@ -1,28 +1,25 @@
-
-body {
-    padding-top: 70px;
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
 }
-.nav-link {
-    position: relative; /* Needed for positioning the pseudo-element */
-    padding-bottom: 5px; /* Space between text and underline */
-    color: #000;
-    background-color: transparent;
-    transition: background-color 0.3 ease, color 0.2s ease;
-    border-radius: 8px;
-  }
 
-  .nav-link:hover {
-    background-color: rgba(0,0,0, 0.1);
-    color: #fff;
-  }
+.container-fluid {
+  flex-grow: 1;
+}
 
+
+#home {
+  background: url('main.jpg') no-repeat center center;
+  background-size: cover;
+  color: white; /* Ensure text is readable over the background image */
+}
 
 .navbar {
-    font-family: "Sora", serif;
-
+  background: linear-gradient(to bottom, rgba(106, 141, 146, 0.6), transparent);
 }
 
-.pictureOfMe {
-  border-radius: 50%;
-  border: 2px solid black;
+footer {
+  background: linear-gradient(to top, rgba(106, 141, 146, 0.6), transparent);
 }

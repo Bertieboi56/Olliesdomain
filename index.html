@@ -19,64 +19,43 @@
 
         <!--navbar-->
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-transparent fixed-top"> 
-           <div class="container d-flex justify-content-center">
-            <ul class="navbar-nav d-flex">
-                <li class="nav-item mx-5">
-                    <a class="nav-link" href="#">home</a>
-                </li>
-                <li class="nav-item mx-5">
-                    <a class="nav-link" href="#">about me</a>
-                </li>
-                <li class="nav-item mx-5" >
-                    <a class="nav-link" href="#">contact</a>
-                </li>
-            </ul>
-           </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#">Ollie's Domain</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
 
         <!--main container-->
 
-        <div class="container my-5">
-            <div class="row align-items-center">
-                <div class="col-12 col-md-6 order-2 order-md-1 d-flex flex-column justify-content-center align-items-center p-2">
-                    <div class="mx-5">
-                        <div>Hi<br>
-                        I`m Oliver!<br>
-                        A inspiring backend Developer!
-                        </div>
+        <div id="home" class="container-fluid d-flex flex-column justify-content-center align-items-center vh-100 bg-light">
+            <h1>Welcome to ollies domain!</h1>
+            <button>click me for the toast!</button>
+        </div>
         
-                        <div>This will be a bunch of text that will serve a purpose later on in<br>
-                        life! So don't worry about it right now!
-                        </div>
-        
-                        <div>
-                            <button>first</button>
-                            <button>Second</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 order-1 order-md-2 d-flex justify-content-center align-items-center">
-                    <img src="ThisIsMe.jpg" class="pictureOfMe" style="max-width: 100%; height: auto;">
-                </div>
-            </div>
-        </div>
-        <div style="height: 20px" class="bg-secondary"></div>
 
-
-       <div class="container my-5" style="height: 400px">
-    <div class="row g-3">
-        <div class="col-12 col-md-4">
-            <div class="p-2 bg-success" style="height: 300px;">Flex item 1</div>
-        </div>
-        <div class="col-12 col-md-4">
-            <div class="p-2 bg-success" style="height: 300px;">Flex item 2</div>
-        </div>
-        <div class="col-12 col-md-4">
-            <div class="p-2 bg-success" style="height: 300px;">Flex item 3</div>
-        </div>
-    </div>
-</div>
+       
 
 
 
@@ -96,9 +75,15 @@
 
         <!-- Footer Section -->
 
-        <div>
-            
-        </div>
+        <!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+    <p>© 2025 Oliver's Domain. All rights reserved.</p>
+    <div>
+        <a href="#" class="text-white mx-2"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-twitter"></i></a>
+        <a href="#" class="text-white mx-2"><i class="bi bi-linkedin"></i></a>
+    </div>
+</footer>
         
     </body>
 </html>

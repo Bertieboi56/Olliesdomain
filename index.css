@@ -1,25 +1,51 @@
 html, body {
   height: 100%;
   margin: 0;
-  display: flex;
-  flex-direction: column;
+
+}
+
+body {
+  display: block;
 }
 
 .container-fluid {
   flex-grow: 1;
 }
 
-
 #home {
-  background: url('main.jpg') no-repeat center center;
-  background-size: cover;
-  color: white; /* Ensure text is readable over the background image */
+  background-color: tan; /* Ensure text is readable over the background */
+  color: white;
 }
 
 .navbar {
-  background: linear-gradient(to bottom, rgba(106, 141, 146, 0.6), transparent);
+  background-color: tan;
 }
 
 footer {
-  background: linear-gradient(to top, rgba(106, 141, 146, 0.6), transparent);
+  background-color: tan;
+  margin-top: auto; /* Push the footer to the bottom */
 }
+
+.nav-link {
+  color: white;
+}
+
+#liveToastBtn {
+  background-color: coral;
+  border-radius: 5px;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#liveToastBtn:hover {
+  background-color: red;
+  transform: scale(1.1);
+  transition: transform 0.5s ease-out;
+}
+
+
